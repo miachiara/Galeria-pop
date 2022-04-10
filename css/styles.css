@@ -121,7 +121,12 @@ footer a:hover{
 }
 
 @media (max-width: 500px){
+
     .fotosArtist article img{
         width: 300px;
+    }
+
+    .fotosArtist article {
+        margin: 20px 0px;
     }
 }
