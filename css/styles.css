@@ -128,3 +128,17 @@ footer a:hover{
         margin: 20px 0px;
     }
 }
+
+.mainMantenimiento{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    row-gap: 50px;
+    color: #5571E9;
+}
+
+.imgMantenimiento{
+    width: 600px;
+    margin-top: 150px;
+}
