@@ -6,11 +6,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria Pop</title>
     <link rel="stylesheet" href="../css/styles.css">
+    <script src="https://kit.fontawesome.com/501c73a057.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <header>
         <div class="topHeader">
             <img class="logo" src="../img/Logoo.webp" alt="Logo">
+            <nav class="mobile">
+                <form action="">
+                    <select class="fa selectMobile" name="page" id="page">
+                        <option class="fa" value="nav">&#xf0c9</option>
+                        <option id="optionA" value="inicio">Inicio</option>
+                        <option id="optionB" value="galeria">Galeria</option>
+                        <option id="optionC" value="nosotros">Nosotros</option>
+                        <option id="optionD" value="registrate">Registrate</option>
+                    </select>
+                </form>
+            </nav>
             <form action="">
                 <label for="buscador"><i class="fa-solid fa-magnifying-glass"></i></label>
                 <input type="text" name="buscador" id="buscador" placeholder="Buscar...">
@@ -20,17 +32,19 @@
                 <i class="fa-regular fa-circle-user"></i>
             </div>
         </div>
-        <nav>
+        <nav class="desktop">
             <ul>
                 <li><a href="../index.html">Artistas</a></li>
                 <li><a href="galeria.html">Galerías de Arte</a></li>
                 <li><a class="selected" href="nosotros.html">Nosotros</a></li>
             </ul>
         </nav>
+        
     </header>
     <main class="mainMantenimiento">
         <img class="imgMantenimiento" src="../img/mantenimiento-web-1024x630.png" alt="Imagen mantenimiento">
         <h1>Esta página se encuentra en mantenimiento</h1>
     </main>
+    <script src="../js/interno.js"></script>
 </body>
 </html>

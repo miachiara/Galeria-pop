@@ -13,6 +13,17 @@
     <header>
         <div class="topHeader">
             <img class="logo" src="img/Logoo.webp" alt="Logo">
+            <nav class="mobile">
+                <form action="">
+                    <select class="fa selectMobile" name="page" id="page">
+                        <option class="fa" value="nav">&#xf0c9</option>
+                        <option id="optionA" value="inicio">Inicio</option>
+                        <option id="optionB" value="galeria">Galeria</option>
+                        <option id="optionC" value="nosotros">Nosotros</option>
+                        <option id="optionD" value="registrate">Registrate</option>
+                    </select>
+                </form>
+            </nav>
             <form action="">
                 <label for="buscador"><i class="fa-solid fa-magnifying-glass"></i></label>
                 <input type="text" name="buscador" id="buscador" placeholder="Buscar...">
@@ -22,13 +33,14 @@
                 <i class="fa-regular fa-circle-user"></i>
             </div>
         </div>
-        <nav>
+        <nav class="desktop">
             <ul>
                 <li><a class="selected" href="index.html">Artistas</a></li>
                 <li><a href="views/galeria.html">Galerías de Arte</a></li>
                 <li><a href="views/nosotros.html">Nosotros</a></li>
             </ul>
         </nav>
+        
     </header>
     <main> 
         <section class="fotosArtist">
@@ -135,5 +147,6 @@
     <footer>
         <p>Desarrollado por <a target="_blank" href="https://www.instagram.com/miacarpinetti">Mia Carpinetti</a></p>
     </footer>
+    <script src="js/index.js"></script>
 </body>
 </html>

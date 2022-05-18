@@ -132,13 +132,19 @@ footer a:hover{
     width: 600px;
     margin-top: 150px;
 }
-
+.mobile{
+    display: none;
+}
 @media (max-width: 510px){
 
     .topHeader form{
-        order: 2;
+        order: 3;
         padding-left: 50px;
         margin-bottom: 20px;
+    }
+
+    header{
+        padding: 0px;
     }
 
     header nav ul{
@@ -154,4 +160,29 @@ footer a:hover{
     .fotosArtist article {
         margin: 20px 0px;
     }
+
+    .desktop, .login {
+        display: none;
+    }
+
+    .mobile {
+        display: inline;
+    }
+
+    #page{
+        appearance: none;
+        border-radius: 5px;
+        font-size: 25px;
+        width: 35px;
+        padding: 5px;
+        box-shadow: 0px 0px 5px black;
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+
+    .logo{
+        order: 2;
+    }
+    
 }
